@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #cecee4;
+    color:#595959;
+}
+
+.page {
+    width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.about-me, .skills-strengths, .contact-info {
+    margin-bottom: 1.5rem;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+   
+    display: block;
+   
+}
+
+.skills-strengths ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-strengths li {
+    background-color: #e0e7ff;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.contact-info a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.achievements {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.achievements li {
+    margin: 0.5rem 0;
+}
